@@ -30,11 +30,11 @@ const App = () => {
     <Box width="calc(1200px - 5rem)" margin="0 auto" pt={5}>
       <Box display="flex" flexDirection="column" gap={3}>
         <Header {...profile} />
-        <Box display="flex" width={1} alignItems="flex-start" justifyContent="space-between">
+        <Box display="flex" width={1} alignItems="flex-start" justifyContent="space-between" gap={5}>
           <Box display="flex" justifyContent="center">
             <Experience />
           </Box>
-          <Box gap={5} display="flex" flexDirection="column" justifyContent="center" mr={5}>
+          <Box gap={5} display="flex" flexDirection="column" justifyContent="center" width="350px">
             <Skills />
             <Teaching />
             <Education />

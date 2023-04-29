@@ -8,6 +8,7 @@ const StyledUl = styled('ul')`
 
 const StyledLi = styled('li')`
   padding: 1px 0;
+  margin-bottom: 5px;
 `;
 
 const Teaching = () => {

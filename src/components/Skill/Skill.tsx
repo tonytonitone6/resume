@@ -24,11 +24,11 @@ const Skill = ({ stacks }: SkillListProps) => {
       <Box width={1} display="flex" gap={1.5} flexWrap="wrap">
         <StyledUl>
           <StyledLi>JavaScript, TypeScript</StyledLi>
-          <StyledLi>Styled-components, Emotion</StyledLi>
-          <StyledLi>React, Hook</StyledLi>
+          <StyledLi>Styled-Components, Emotion</StyledLi>
+          <StyledLi>React/Hook</StyledLi>
+          <StyledLi>Svelte/SvelteKit</StyledLi>
           <StyledLi>React-Testing-Library</StyledLi>
           <StyledLi>Node, Nest/Express</StyledLi>
-          <StyledLi>Go</StyledLi>
           <StyledLi>MongoDB</StyledLi>
           <StyledLi>Docker</StyledLi>
         </StyledUl>
