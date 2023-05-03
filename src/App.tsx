@@ -1,9 +1,10 @@
-import { Box } from '@mui/material';
+import { Box, Grid } from '@mui/material';
 import Header from "./components/Header/Header";
 import Experience from "./components/Experience/Experience";
 import Education from "./components/Education/Education";
 import Teaching from './components/Teaching/Teaching';
 import Skills from './components/Skill/Skill';
+import Contact from './components/Contact/Contact';
 
 import { useState } from 'react';
 
@@ -20,6 +21,17 @@ import { useState } from 'react';
 //   }
 // })
 
+const skillList: Array<string> = [
+  'JavaScript, TypeScript',
+  'Styled-Components, Emotion',
+  'React/Hook',
+  'React-Testing-Library',
+  'Svelte/SvelteKit',
+  'Node, Nest/Express',
+  'MongoDB',
+  'Docker'
+]
+
 const App = () => {
   const [profile] = useState({
     name: 'Stan Mao',
@@ -35,7 +47,8 @@ const App = () => {
             <Experience />
           </Box>
           <Box gap={5} display="flex" flexDirection="column" justifyContent="center" width="350px">
-            <Skills />
+            <Contact />
+            <Skills stacks={skillList} />
             <Teaching />
             <Education />
           </Box>

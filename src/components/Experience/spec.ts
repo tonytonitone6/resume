@@ -34,7 +34,7 @@ export const experienceList: JobDescriptionType[] = [
   },
   {
     name: 'Sinopac Security',
-    jobTitle: 'Senior Software Engineer',
+    jobTitle: 'Senior Front-End Engineer',
     location: 'Taipei City, TW',
     date: {
       from: 'April 2021',
@@ -50,8 +50,8 @@ export const experienceList: JobDescriptionType[] = [
     jobTitle: 'Front-End Developer',
     location: 'Taipei City, TW',
     date: {
-      from: 'March 2021',
-      to: 'March 2020',
+      from: 'March 2020',
+      to: 'March 2021',
     },
     descList: [
       'Created shared modules using context pattern and wrote a unit test',

@@ -1,24 +1,8 @@
 import { Box, Typography } from '@mui/material';
-import styled from '@emotion/styled';
-import type { TypographyProps } from '@mui/material';
 
 import SubItem from '../SubItem/SubItem';
 import type { JobDescriptionType } from './types';
 import { experienceList } from './spec';
-
-const StyledUl = styled('ul')`
-  margin: 0;
-  padding-left: 20px;
-`;
-
-const StyledLi = styled('li')`
-  padding: 1px 0;
-  font-size: 0.85rem;
-`;
-
-const StyledTypo = styled(Typography) <TypographyProps>`
-  font-size: ${props => props.fontSize ? `${props.fontSize}px` : '12px'}
-`;
 
 const Experience = () => {
   function renderSubItem(item: JobDescriptionType) {
@@ -26,20 +10,21 @@ const Experience = () => {
 
     function renderItem(desc: string) {
       return (
-        <StyledLi>
-          <StyledTypo key={desc} fontSize="14px" fontWeight={500}>
+        <Typography key={desc} component="li" padding="1px 0">
+          <Typography key={desc} fontSize="0.85rem" fontWeight={500}>
             {desc}
-          </StyledTypo>
-        </StyledLi >
+          </Typography>
+        </Typography>
       );
     }
 
     return (
       <SubItem
+        key={item.name}
         {...rest}
         renderNode={() => (
           <Box mt={1}>
-            <StyledUl>{descList.map(renderItem)}</StyledUl>
+            <Typography component="ul" margin={0} pl="20px">{descList.map(renderItem)}</Typography>
           </Box>
         )}
       />
