@@ -39,22 +39,27 @@ const App = () => {
   })
   // display="flex" flexDirection="column" alignItems="center"
   return (
-    <Box width="calc(1200px - 5rem)" margin="0 auto" pt={5}>
-      <Box display="flex" flexDirection="column" gap={3}>
-        <Header {...profile} />
-        <Box display="flex" width={1} alignItems="flex-start" justifyContent="space-between" gap={5}>
-          <Box display="flex" justifyContent="center">
+    // <Box width="calc(1200px - 5rem)" margin="0 auto" pt={5}>
+    <Grid maxWidth="calc(1200px - 5rem)" margin="0 auto" pt={5}>
+      <Grid container display="flex" >
+        <Grid item md={12} xs={12}>
+          <Header {...profile} />
+        </Grid>
+        <Grid container display="flex" width={1} alignItems="flex-start" spacing={5}>
+          <Grid item md={9} xs={12} display="flex" justifyContent="center">
             <Experience />
-          </Box>
-          <Box gap={5} display="flex" flexDirection="column" justifyContent="center" width="350px">
-            <Contact />
-            <Skills stacks={skillList} />
-            <Teaching />
-            <Education />
-          </Box>
-        </Box>
-      </Box>
-    </Box>
+          </Grid>
+          <Grid item md={3} xs={12}>
+            <Grid gap={5} display="flex" flexDirection="column" justifyContent="center" width="350px">
+              <Contact />
+              <Skills stacks={skillList} />
+              <Teaching />
+              <Education />
+            </Grid>
+          </Grid>
+        </Grid>
+      </Grid>
+    </Grid>
   )
 }
 
