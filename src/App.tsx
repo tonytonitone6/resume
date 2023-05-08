@@ -23,8 +23,9 @@ import { useState } from 'react';
 
 const skillList: Array<string> = [
   'JavaScript, TypeScript',
-  'Styled-Components, Emotion',
   'React/Hook',
+  'React Native',
+  'Styled-Components, Emotion',
   'React-Testing-Library',
   'Svelte/SvelteKit',
   'Node, Nest/Express',

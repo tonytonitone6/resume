@@ -1,4 +1,4 @@
-import { Typography, Box, Grid } from '@mui/material';
+import { Typography, Grid } from '@mui/material';
 
 type HeaderProps = {
   name: string;
