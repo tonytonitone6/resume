@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@assets/*": ["src/assets/*"]
+    },
     "target": "ESNext",
     "module": "ESNext",
     "allowJs": true,
@@ -9,7 +14,7 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "useUnknownInCatchVariables": false
-  },
-  "include": ["src"]
+    "useUnknownInCatchVariables": false,
+    "jsxImportSource": "@emotion/react"
+  }
 }

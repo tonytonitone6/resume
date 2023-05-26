@@ -1,7 +1,7 @@
 import { Box, Typography, SvgIcon } from '@mui/material';
-import PublicIcon from '@mui/icons-material/Public';
-import ContactPhone from '@mui/icons-material/ContactPhone';
-import MailIcon from '@mui/icons-material/MailOutline';
+import mailIcon from '@assets/img/mail.svg';
+import phoneIcon from '@assets/img/phone.svg';
+import countryIcon from '@assets/img/country.svg';
 
 const Contact = () => {
   return (
@@ -9,15 +9,15 @@ const Contact = () => {
       <Typography variant='h6'>Contact</Typography>
       <Box display="flex" flexDirection="column" gap={1} pl={1}>
         <Box display="flex" gap={1.5}>
-          <PublicIcon />
+          <img width={20} src={countryIcon} />
           <Typography>Taipei City, Taiwan</Typography>
         </Box>
         <Box display="flex" gap={1.5}>
-          <ContactPhone />
+          <img width={20} src={phoneIcon} />
           <Typography>+886 923926326</Typography>
         </Box>
         <Box display="flex" gap={1.5}>
-          <MailIcon />
+          <img width={20} src={mailIcon} />
           <Typography>tonytonitone6@gmail.com</Typography>
         </Box>
       </Box>
