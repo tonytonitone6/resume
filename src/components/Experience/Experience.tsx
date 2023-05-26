@@ -33,7 +33,7 @@ const Experience = () => {
 
   return (
     <Box display="flex" flexDirection="column" gap={2}>
-      <Typography variant="h6">WORK EXPERIENCE</Typography>
+      <Typography variant="h6">Work Experience</Typography>
       {experienceList.map(renderSubItem)}
     </Box>
   );

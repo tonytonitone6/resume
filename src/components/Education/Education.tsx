@@ -1,10 +1,9 @@
 import { Typography, Box } from '@mui/material';
-import type { TypographyProps } from '@mui/material';
 
 const Education = () => {
   return (
     <Box display="flex" flexDirection="column" gap={2}>
-      <Typography variant="h6">EDUCATION</Typography>
+      <Typography variant="h6">Education</Typography>
       <Box>
         <Typography fontSize="16px" fontWeight={800}>Information Management, <Typography component="a" color="inherit" target='__blank' href='https://new.ntpu.edu.tw/'>NTPU</Typography></Typography>
         <Typography variant='subtitle2'>Taiwan, Master's degree</Typography>

@@ -27,6 +27,7 @@ const skillList: Array<string> = [
   'React Native',
   'Styled-Components, Emotion',
   'React-Testing-Library',
+  'Cypress',
   'Svelte/SvelteKit',
   'Node, Nest/Express',
   'MongoDB',
@@ -40,13 +41,12 @@ const App = () => {
   })
   // display="flex" flexDirection="column" alignItems="center"
   return (
-    // <Box width="calc(1200px - 5rem)" margin="0 auto" pt={5}>
-    <Grid maxWidth="calc(1200px - 5rem)" margin="0 auto" pt={5}>
+    <Grid maxWidth="calc(1000px - 5rem)" margin="0 auto">
       <Grid container display="flex" >
         <Grid item md={12} xs={12}>
           <Header {...profile} />
         </Grid>
-        <Grid container display="flex" width={1} alignItems="flex-start" spacing={5}>
+        <Grid container display="flex" width={1} alignItems="flex-start" mt={2} pr={1}>
           <Grid item md={9} xs={12} display="flex" justifyContent="center">
             <Experience />
           </Grid>
