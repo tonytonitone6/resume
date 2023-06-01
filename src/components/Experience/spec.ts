@@ -56,7 +56,7 @@ export const experienceList: JobDescriptionType[] = [
     descList: [
       'Created shared modules using context pattern and wrote a unit test',
       'For the specific view need to realtime updated, design a pattern to reduce 10% call api frequency',
-      '',
+      'Refactor code base of landing page and build campaign page',
     ],
   },
   {

@@ -28,7 +28,6 @@ const skillList: Array<string> = [
   'Styled-Components, Emotion',
   'React-Testing-Library',
   'Cypress',
-  'Svelte/SvelteKit',
   'Node, Nest/Express',
   'MongoDB',
   'Docker'
