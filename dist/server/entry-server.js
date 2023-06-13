@@ -70,7 +70,7 @@ const experienceList = [{
     from: "March 2020",
     to: "March 2021"
   },
-  descList: ["Created shared modules using context pattern and wrote a unit test", "For the specific view need to realtime updated, design a pattern to reduce 10% call api frequency", ""]
+  descList: ["Created shared modules using context pattern and wrote a unit test", "For the specific view need to realtime updated, design a pattern to reduce 10% call api frequency", "Refactor code base of landing page and build campaign page"]
 }, {
   name: "NextDigital",
   jobTitle: "Software Engineer",
@@ -166,7 +166,7 @@ const Contact = () => {
     ] })
   ] });
 };
-const skillList = ["JavaScript, TypeScript", "React/Hook", "React Native", "Styled-Components, Emotion", "React-Testing-Library", "Cypress", "Svelte/SvelteKit", "Node, Nest/Express", "MongoDB", "Docker"];
+const skillList = ["JavaScript, TypeScript", "React/Hook", "React Native", "Styled-Components, Emotion", "React-Testing-Library", "Cypress", "Node, Nest/Express", "MongoDB", "Docker"];
 const App = () => {
   const [profile] = useState({
     name: "Stan Mao",
