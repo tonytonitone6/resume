@@ -7,13 +7,14 @@ export const experienceList: JobDescriptionType[] = [
     location: 'Taipei City, TW',
     date: {
       from: 'September 2022',
-      to: 'Present',
+      to: 'March 2024',
     },
     descList: [
       'Implemented new features in our electric vehicle such as login module, refresh token, and tree view selection module is easier to choose organize structure.',
       'Created Media Module, which interface of upload includes preview our video files and image files.',
       'Customized digital signage layout module using vanilla javascript.',
       'In charge of department main reviewer to improve remembers code productivity and code quality.',
+      'using react-native to create cross platform app for'
     ],
   },
   {
@@ -27,7 +28,7 @@ export const experienceList: JobDescriptionType[] = [
     descList: [
       'Sync chat content(ex. text, image, video) between public chat room and private chat room',
       'Developed common module',
-      'Reporting services that provide data collection as visual diagram to client',
+      'Reporting services that provides data collection as visual diagram to client',
       'Content group module',
       'Customized count down force logout module by user setting',
     ],

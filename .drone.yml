@@ -17,16 +17,16 @@ steps:
     depath: 50
     tags: true
 
-- name: front
-  pull: if-not-exists
-  image: node:11.13.0
-  commands:
-  - yarn install
-  - yarn run prod
-  when:
-    branch:
-    - master
-    - dev
+# - name: front
+#   pull: if-not-exists
+#   image: node:11.13.0
+#   commands:
+#   - yarn install
+#   - yarn run prod
+#   when:
+#     branch:
+#     - master
+#     - dev
 
 - name: scp
   pull: if-not-exists
@@ -38,7 +38,7 @@ steps:
     source:
     - Dockerfile
     - src
-    target: /var/www/resume
+    target: /var/www/resume_stan
     username: stan
   environment:
     SSH_KEY:

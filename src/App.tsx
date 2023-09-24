@@ -1,4 +1,4 @@
-import { Box, Grid } from '@mui/material';
+import { Grid } from '@mui/material';
 import Header from "./components/Header/Header";
 import Experience from "./components/Experience/Experience";
 import Education from "./components/Education/Education";
@@ -38,7 +38,6 @@ const App = () => {
     name: 'Stan Mao',
     jobTitle: 'Senior Frontend Developer',
   })
-  // display="flex" flexDirection="column" alignItems="center"
   return (
     <Grid maxWidth="calc(1000px - 5rem)" margin="0 auto">
       <Grid container display="flex" >
