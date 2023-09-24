@@ -40,9 +40,10 @@ steps:
     - src
     target: /var/www/resume_stan
     username: stan
-  environment:
-    SSH_KEY:
-      from_secret: ssh_key
+    secrets: [ ssh_key ] 
+  # environment:
+  #   SSH_KEY:
+  #     from_secret: ssh_key
   when:
     branch:
     - master
