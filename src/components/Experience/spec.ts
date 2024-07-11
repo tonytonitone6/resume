@@ -10,11 +10,12 @@ export const experienceList: JobDescriptionType[] = [
       to: 'March 2024',
     },
     descList: [
-      'Implemented new features in our electric vehicle such as login module, refresh token, and tree view selection module is easier to choose organize structure.',
+      'Implemented new features in our electric vehicle such as login module which support social login, and tree view selection module is easier to choose organize structure.',
       'Created Media Module, which interface of upload includes preview our video files and image files.',
       'Customized digital signage layout module using vanilla javascript.',
+      'Using storybook Incorporation into our whole project makes it easier to maintain various components.',
       'In charge of department main reviewer to improve remembers code productivity and code quality.',
-      'using react-native to create cross platform app for'
+      'As project leader takes a colleague to implement app for the Thailand government, which were used to monitor trash bin and pole light status.',
     ],
   },
   {

@@ -30,6 +30,7 @@ const skillList: Array<string> = [
   'Cypress',
   'Node, Nest/Express',
   'MongoDB',
+  'PostgreSQL',
   'Docker'
 ]
 

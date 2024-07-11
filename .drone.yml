@@ -38,7 +38,7 @@ steps:
     source:
     - Dockerfile
     - src
-    target: /var/www/resume_stan
+    target: /var/www/resume123
     username: stan
   environment:
     SSH_KEY:

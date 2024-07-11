@@ -10,11 +10,11 @@ const Contact = () => {
       <Box display="flex" flexDirection="column" gap={1} pl={1}>
         <Box display="flex" gap={1.5}>
           <img width={20} src={countryIcon} />
-          <Typography>Taipei City, Taiwan</Typography>
+          <Typography>Toronto, Ontario, CA</Typography>
         </Box>
         <Box display="flex" gap={1.5}>
           <img width={20} src={phoneIcon} />
-          <Typography>+886 923926326</Typography>
+          <Typography>+1 (437)5567591</Typography>
         </Box>
         <Box display="flex" gap={1.5}>
           <img width={20} src={mailIcon} />
